@@ -6,6 +6,7 @@ element.innerHTML = 'Harshini Loves herself';
 
 //Move the image of madi on click
 var img = document.getElementById('madi');
+var marginLeft = 0;
 function moveright(){
     marginleft = marginleft+10;
     img.style.marginLeft = marginLeft+'px';
