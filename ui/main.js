@@ -18,7 +18,7 @@ img.onclick = function(){
 //Change texxt on Button click
 
 var button = document.getElementById("counter");
-var counter = 0;
+
 button.onclick = function(){
     var request = new XMLHttpRequest();
     request.readyStateChange = function(){
