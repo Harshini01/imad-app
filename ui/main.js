@@ -28,7 +28,7 @@ button.onclick = function(){
             {
                 var counter = request.responseText;
                 var span = document.getElementById("value");
-                span.innerHTML = "Counter";
+                span.innerHTML = counter.toString();
                 
             }
         }
