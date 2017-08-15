@@ -17,7 +17,7 @@ img.onclick = function(){
 
 //Change texxt on Button click
 
-var button = document.getElementById("counter");
+var button = document.getElementById('counter');
 button.onclick = function(){
     var request = new XMLHttpRequest();
     request.onReadyStateChange = function(){
@@ -26,7 +26,7 @@ button.onclick = function(){
             if(request.status === 200)
             {
                 var counter = request.responseText;
-                var span = document.getElementById("value");
+                var span = document.getElementById('value');
                 span.innerHTML = counter.toString();
             }
         }
