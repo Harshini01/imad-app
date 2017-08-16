@@ -34,3 +34,19 @@ button.onclick = function(){
     request.open('GET','http://srikasinadhuni.imad.hasura-app.io/counter',true);
     request.send(null);
 };
+
+var name = document.getElementById("name");
+var submit = document.getElementById("submit_btn");
+submit.onclick = function(){
+    //make a request to server and send name.
+    
+    //capture a list of names and render it
+    var names =['name1','name2','name3','name4'];
+    var list =''
+    for(var i=0;i<names.length;i++)
+    {
+        list+='<li>'+names[i]+'</li>';
+    }
+    var ul = document.geElementById("namelist");
+    ul.innerHTML = text;
+};
