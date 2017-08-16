@@ -27,7 +27,7 @@ button.onclick = function(){
             if(request.status === 200)
             {
                 var counter = request.responseText;
-                document.getElementById("span").innerHTML =counter.toString() ;
+                document.getElementById("span").innerHTML =counter+" times" ;
             }
         }
     };
