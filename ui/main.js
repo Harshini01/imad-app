@@ -58,7 +58,7 @@ submit.onclick = function(){
         }
     };
   var nameInput = document.getElementById("name");
-    var name = nameInput.value();
+    var name = nameInput.value;
     //capture a list of names and render it
     request.open('GET','http://srikasinadhuni.imad.hasura-app.io/submit-name?name='+name,true);
     request.send(null);
